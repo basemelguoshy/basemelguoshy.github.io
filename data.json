@@ -18,13 +18,14 @@
    "subtitle": "",
    "series": "Learn Egyptian Arabic",
    "num": 1,
-   "color": "#1F3A93",
+   "color": "#1f3a93",
    "amazon": "https://www.amazon.com/s?k=Egyptian+Arabic+for+Beginners+Basem+Elguoshy+Madian",
    "desc_en": "Book 1 of the Learn Egyptian Arabic series: a first course in the Arabic spoken in Cairo, with Arabic script, transliteration and English.",
    "desc_ar": "الكتاب الأول في سلسلة تعلم العامية المصرية: بداية تعلّم لهجة القاهرة بالحروف العربية والنطق بالحروف اللاتينية والإنجليزي.",
    "cover": null,
    "sample": null,
-   "tracks": []
+   "tracks": [],
+   "youtube": ""
   },
   {
    "id": "everyday-egyptian-phrases",
