@@ -13,6 +13,171 @@
  },
  "books": [
   {
+   "id": "my-ramadan-journey",
+   "title": "My Ramadan Journey",
+   "subtitle": "A 30-Day Activity Book for Muslim Kids Ages 6-10",
+   "series": "Islamic Books for Kids",
+   "num": null,
+   "color": "#0F5132",
+   "amazon": "",
+   "desc_en": "Audio for every day of the book: the Arabic word of the day and the dua of the day. Scan the QR code on each day's page or word card, or play the days here.",
+   "desc_ar": "صوتيات كل يوم في الكتاب: الكلمة العربية ودعاء اليوم. امسح كود QR في صفحة اليوم أو كارت الكلمة، أو شغّل الأيام من هنا.",
+   "cover": null,
+   "sample": null,
+   "tracks": [
+    {
+     "id": "rj01",
+     "title": "Day 1: Welcome, Ramadan! (Ramadan)",
+     "file": "ramadan/audio/01.mp3"
+    },
+    {
+     "id": "rj02",
+     "title": "Day 2: What Is Fasting? (sawm)",
+     "file": "ramadan/audio/02.mp3"
+    },
+    {
+     "id": "rj03",
+     "title": "Day 3: The Blessed Suhoor (suhur)",
+     "file": "ramadan/audio/03.mp3"
+    },
+    {
+     "id": "rj04",
+     "title": "Day 4: Thank You for Our Food (iftar)",
+     "file": "ramadan/audio/04.mp3"
+    },
+    {
+     "id": "rj05",
+     "title": "Day 5: My Five Prayers (salah)",
+     "file": "ramadan/audio/05.mp3"
+    },
+    {
+     "id": "rj06",
+     "title": "Day 6: The House of Allah (masjid)",
+     "file": "ramadan/audio/06.mp3"
+    },
+    {
+     "id": "rj07",
+     "title": "Day 7: The Month of the Qur'an (Qur'an)",
+     "file": "ramadan/audio/07.mp3"
+    },
+    {
+     "id": "rj08",
+     "title": "Day 8: Kindness to Parents (umm)",
+     "file": "ramadan/audio/08.mp3"
+    },
+    {
+     "id": "rj09",
+     "title": "Day 9: Good Neighbors (jar)",
+     "file": "ramadan/audio/09.mp3"
+    },
+    {
+     "id": "rj10",
+     "title": "Day 10: Allah's Mercy (rahmah)",
+     "file": "ramadan/audio/10.mp3"
+    },
+    {
+     "id": "rj11",
+     "title": "Day 11: Saying Sorry (maghfirah)",
+     "file": "ramadan/audio/11.mp3"
+    },
+    {
+     "id": "rj12",
+     "title": "Day 12: Staying Calm (sabr)",
+     "file": "ramadan/audio/12.mp3"
+    },
+    {
+     "id": "rj13",
+     "title": "Day 13: Always Truthful (sidq)",
+     "file": "ramadan/audio/13.mp3"
+    },
+    {
+     "id": "rj14",
+     "title": "Day 14: Giving Charity (sadaqah)",
+     "file": "ramadan/audio/14.mp3"
+    },
+    {
+     "id": "rj15",
+     "title": "Day 15: Remembering Allah (dhikr)",
+     "file": "ramadan/audio/15.mp3"
+    },
+    {
+     "id": "rj16",
+     "title": "Day 16: A Bright Morning (fajr)",
+     "file": "ramadan/audio/16.mp3"
+    },
+    {
+     "id": "rj17",
+     "title": "Day 17: Brave Hearts (shaja'ah)",
+     "file": "ramadan/audio/17.mp3"
+    },
+    {
+     "id": "rj18",
+     "title": "Day 18: Trusting Allah (tawakkul)",
+     "file": "ramadan/audio/18.mp3"
+    },
+    {
+     "id": "rj19",
+     "title": "Day 19: Learning Is Light ('ilm)",
+     "file": "ramadan/audio/19.mp3"
+    },
+    {
+     "id": "rj20",
+     "title": "Day 20: A Thankful Heart (shukr)",
+     "file": "ramadan/audio/20.mp3"
+    },
+    {
+     "id": "rj21",
+     "title": "Day 21: Seeking Laylat al-Qadr ('afw)",
+     "file": "ramadan/audio/21.mp3"
+    },
+    {
+     "id": "rj22",
+     "title": "Day 22: Night Prayers (tarawih)",
+     "file": "ramadan/audio/22.mp3"
+    },
+    {
+     "id": "rj23",
+     "title": "Day 23: Dreaming of Jannah (jannah)",
+     "file": "ramadan/audio/23.mp3"
+    },
+    {
+     "id": "rj24",
+     "title": "Day 24: The Story of Prophet Yunus (nabi)",
+     "file": "ramadan/audio/24.mp3"
+    },
+    {
+     "id": "rj25",
+     "title": "Day 25: Turning Back to Allah (tawbah)",
+     "file": "ramadan/audio/25.mp3"
+    },
+    {
+     "id": "rj26",
+     "title": "Day 26: Caring for Allah's Earth (matar)",
+     "file": "ramadan/audio/26.mp3"
+    },
+    {
+     "id": "rj27",
+     "title": "Day 27: A Night of Light (nur)",
+     "file": "ramadan/audio/27.mp3"
+    },
+    {
+     "id": "rj28",
+     "title": "Day 28: Resting the Sunnah Way (qamar)",
+     "file": "ramadan/audio/28.mp3"
+    },
+    {
+     "id": "rj29",
+     "title": "Day 29: Zakat al-Fitr (zakah)",
+     "file": "ramadan/audio/29.mp3"
+    },
+    {
+     "id": "rj30",
+     "title": "Day 30: Goodbye, Ramadan ('Eid)",
+     "file": "ramadan/audio/30.mp3"
+    }
+   ]
+  },
+  {
    "id": "egyptian-arabic-beginners",
    "title": "Egyptian Arabic for Beginners",
    "subtitle": "",
