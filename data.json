@@ -18,11 +18,11 @@
    "subtitle": "A 30-Day Activity Book for Muslim Kids Ages 6-10",
    "series": "Islamic Books for Kids",
    "num": null,
-   "color": "#0F5132",
+   "color": "#0f5132",
    "amazon": "",
    "desc_en": "Audio for every day of the book: the Arabic word of the day and the dua of the day. Scan the QR code on each day's page or word card, or play the days here.",
    "desc_ar": "صوتيات كل يوم في الكتاب: الكلمة العربية ودعاء اليوم. امسح كود QR في صفحة اليوم أو كارت الكلمة، أو شغّل الأيام من هنا.",
-   "cover": null,
+   "cover": "covers/my-ramadan-journey-xxd1sgo5s.jpg",
    "sample": null,
    "tracks": [
     {
@@ -175,7 +175,8 @@
      "title": "Day 30: Goodbye, Ramadan ('Eid)",
      "file": "ramadan/audio/30.mp3"
     }
-   ]
+   ],
+   "youtube": ""
   },
   {
    "id": "egyptian-arabic-beginners",
