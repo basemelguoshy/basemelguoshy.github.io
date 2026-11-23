@@ -8,11 +8,11 @@ var T={
  en:{books:"Books",how:"How it works",about:"About",kicker:"Author · Pharmacist · Al-Azhar graduate",browse:"Browse the books",amzAuthor:"My books on Amazon",
   howTitle:"How the audio works",s1:"Find the QR code",s1p:"Books with audio have a QR code printed inside.",s2:"Scan it with your phone",s2p:"The camera opens that book's page here. No app to install.",s3:"Listen and repeat",s3p:"Slow the audio down to 0.75× while you learn, then speed it back up.",
   shelf:"The books",all:"All",tracks:function(n){return n+(n===1?" audio track":" audio tracks")},noAudio:"Audio coming soon",
-  buy:"Get it on Amazon",sample:"Read a free sample",back:"All books",listen:"Audio",playAll:"Play all",speed:"Speed",aboutTitle:"About the author",contactTitle:"Get in touch",contactP:"Questions about a book, the audio, or bulk orders? Email me:",copy:"Copy email",copied:"Copied",scanHint:"Scan · Listen",notFound:"This book isn't here any more.",onYT:"Open on YouTube",bookN:"Book",loadErr:"The page couldn't load. Check your connection and refresh."},
+  buy:"Get it on Amazon",sample:"Read a free sample",back:"All books",listen:"Audio",playAll:"Play all",speed:"Speed",aboutTitle:"About the author",contactTitle:"Get in touch",contactP:"Questions about a book, the audio, or bulk orders? Email me:",copy:"Copy email",copied:"Copied",scanHint:"Scan · Listen",notFound:"This book isn't here any more.",onYT:"Open on YouTube",phr:"Open the phrases with audio",phrPill:"Audio for every phrase",phrNote:"Every Egyptian phrase in the book, chapter by chapter, at normal speed and slowly.",bookN:"Book",loadErr:"The page couldn't load. Check your connection and refresh."},
  ar:{books:"الكتب",how:"إزاي تسمع",about:"عني",kicker:"مؤلف · صيدلي · خريج الأزهر",browse:"تصفّح الكتب",amzAuthor:"كتبي على أمازون",
   howTitle:"إزاي تشغّل الصوتيات",s1:"دوّر على كود QR",s1p:"الكتب اللي ليها صوتيات فيها كود QR مطبوع جوّه.",s2:"امسحه بكاميرا الموبايل",s2p:"هيفتح صفحة الكتاب هنا على طول، من غير ما تنزّل أي تطبيق.",s3:"اسمع وكرّر",s3p:"بطّئ الصوت لـ 0.75× وانت بتتعلم، وبعدين رجّعه لسرعته.",
   shelf:"الكتب",all:"الكل",tracks:function(n){return n+" مقطع صوتي"},noAudio:"الصوتيات قريبًا",
-  buy:"اشتريه من أمازون",sample:"اقرأ عينة مجانية",back:"كل الكتب",listen:"الصوتيات",playAll:"تشغيل الكل",speed:"السرعة",aboutTitle:"عن المؤلف",contactTitle:"تواصل معايا",contactP:"عندك سؤال عن كتاب أو الصوتيات أو طلب كميات؟ ابعتلي على الإيميل:",copy:"انسخ الإيميل",copied:"اتنسخ",scanHint:"امسح · اسمع",notFound:"الكتاب ده مش موجود دلوقتي.",onYT:"افتح على YouTube",bookN:"كتاب",loadErr:"الصفحة ما حمّلتش. اتأكد من النت وحدّث الصفحة."}
+  buy:"اشتريه من أمازون",sample:"اقرأ عينة مجانية",back:"كل الكتب",listen:"الصوتيات",playAll:"تشغيل الكل",speed:"السرعة",aboutTitle:"عن المؤلف",contactTitle:"تواصل معايا",contactP:"عندك سؤال عن كتاب أو الصوتيات أو طلب كميات؟ ابعتلي على الإيميل:",copy:"انسخ الإيميل",copied:"اتنسخ",scanHint:"امسح · اسمع",notFound:"الكتاب ده مش موجود دلوقتي.",onYT:"افتح على YouTube",phr:"افتح العبارات بالصوت",phrPill:"صوت لكل عبارة",phrNote:"كل عبارة مصرية في الكتاب، فصل بفصل، بالسرعة العادية وببطء.",bookN:"كتاب",loadErr:"الصفحة ما حمّلتش. اتأكد من النت وحدّث الصفحة."}
 };
 var lang;
 try{lang=localStorage.getItem("bm-lang")}catch(e){}
@@ -67,7 +67,7 @@ function homeHTML(){
   if(ser.length>1)s+='<div class="chips"><button class="chip" data-f="" aria-pressed="'+(filter===""?"true":"false")+'">'+t("all")+'</button>'+ser.map(function(x){return'<button class="chip" data-f="'+esc(x)+'" aria-pressed="'+(filter===x?"true":"false")+'">'+esc(x)+'</button>'}).join("")+'</div>';
   s+='<div class="grid">'+S.books.filter(function(b){return!filter||b.series===filter}).map(function(b){
     var n=(b.tracks||[]).length;
-    return'<a class="card" href="?b='+encodeURIComponent(b.id)+'">'+coverHTML(b)+'<h3>'+esc(b.title)+'</h3><div class="meta">'+(n?'<span class="pill">♪ '+esc(t("tracks")(n))+'</span>':'<span class="pill none">'+t("noAudio")+'</span>')+'</div></a>'}).join("")+'</div></div></section>';
+    return'<a class="card" href="?b='+encodeURIComponent(b.id)+'">'+coverHTML(b)+'<h3>'+esc(b.title)+'</h3><div class="meta">'+(n?'<span class="pill">♪ '+esc(t("tracks")(n))+'</span>':b.phrases?'<span class="pill">♪ '+t("phrPill")+'</span>':'<span class="pill none">'+t("noAudio")+'</span>')+'</div></a>'}).join("")+'</div></div></section>';
   return s;
 }
 function bookHTML(id){
@@ -76,15 +76,20 @@ function bookHTML(id){
   if(!b)return'<section class="book"><div class="wrap">'+back+'<p>'+t("notFound")+'</p></div></section>';
   var tr=b.tracks||[];
   var s='<section class="book"><div class="wrap">'+back+'<div class="book-grid"><div>'+coverHTML(b)+'</div><div><div class="label">'+esc(b.series||"")+(b.num?' · '+t("bookN")+' '+esc(b.num):'')+'</div><h1>'+esc(b.title)+'</h1>'+(b.subtitle?'<p class="subt">'+esc(b.subtitle)+'</p>':'')+'<p class="desc">'+esc(desc(b))+'</p><div class="actions">'+(b.amazon?'<a class="btn btn-gold" href="'+esc(b.amazon)+'" target="_blank" rel="noopener">'+t("buy")+' ↗</a>':'')+(b.sample&&b.sample.file?'<a class="btn btn-ghost" href="'+esc(b.sample.file)+'" target="_blank" rel="noopener">'+t("sample")+'</a>':'')+'</div>';
+  if(b.phrases)s+='<div class="actions"><a class="btn btn-primary" href="phrases/?b='+encodeURIComponent(b.phrases)+'">♪ '+t("phr")+' →</a></div>';
   var list=ytList(b.youtube);
   if(list)s+='<div class="ytbox"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(list)+'" title="'+esc(b.title)+'" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe></div>';
   var hasFiles=tr.some(function(x){return x.file});
+  var pl=!(b.phrases&&!tr.length&&!list);
+  if(pl){
   s+='<div class="playlist"><header><h2>'+t("listen")+'</h2>'+(hasFiles?'<button class="btn btn-primary btn-sm" id="playAll" type="button">▶ '+t("playAll")+'</button>':'')+(b.youtube?'<a class="btn btn-ghost btn-sm" href="'+esc(b.youtube)+'" target="_blank" rel="noopener">'+t("onYT")+' ↗</a>':'')+'</header>';
   if(tr.length)s+=tr.map(function(x,i){
     if(x.yt)return'<a class="track" href="'+esc(x.yt)+'" target="_blank" rel="noopener" data-c="'+esc(x.id)+'"><span class="num">'+(i+1)+'</span><span class="tt">'+esc(x.title)+'</span><span class="d">YouTube ↗</span></a>';
     return'<button type="button" class="track'+(P.book===b.id&&P.i===i?' on':'')+'" data-i="'+i+'"><span class="num">'+(i+1)+'</span><span class="tt">'+esc(x.title)+'</span><span class="d">'+(x.dur?fmt(x.dur):'▶')+'</span></button>'}).join("");
-  else if(!list)s+='<div class="empty">'+t("noAudio")+'</div>';
-  s+='</div></div></div></div></section>';
+  else if(!list&&!b.phrases)s+='<div class="empty">'+t("noAudio")+'</div>';
+  s+='</div>';
+  }
+  s+='</div></div></div></section>';
   return s;
 }
 function aboutHTML(){
