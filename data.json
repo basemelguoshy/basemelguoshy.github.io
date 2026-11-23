@@ -402,13 +402,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#2b2b2b",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HR31LDQS",
    "desc_en": "Egyptian Arabic phrasebook for German speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي الألمانية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/sprich-aegyptisch-dxaj5kxam.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "sprich-aegyptisch"
+   "phrases": "sprich-aegyptisch",
+   "youtube": ""
   },
   {
    "id": "parle-egyptien",
