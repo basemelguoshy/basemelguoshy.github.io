@@ -450,13 +450,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#a61b29",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HRV838DG",
    "desc_en": "Egyptian Arabic phrasebook for Polish speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي البولندية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/mow-po-egipsku-ryjaqbsgj.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "mow-po-egipsku"
+   "phrases": "mow-po-egipsku",
+   "youtube": ""
   }
  ]
 }
