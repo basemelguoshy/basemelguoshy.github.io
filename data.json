@@ -418,13 +418,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#23408e",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HRSNT2TW",
    "desc_en": "Egyptian Arabic phrasebook for French speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي الفرنسية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/parle-egyptien-2uq28cdqt.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "parle-egyptien"
+   "phrases": "parle-egyptien",
+   "youtube": ""
   },
   {
    "id": "prata-egyptiska",
