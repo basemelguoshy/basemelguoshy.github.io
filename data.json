@@ -386,13 +386,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#c25a12",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HQ4J3ZZP",
    "desc_en": "Egyptian Arabic phrasebook for Dutch speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي الهولندية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/spreek-egyptisch-5pqor8lc8.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "spreek-egyptisch"
+   "phrases": "spreek-egyptisch",
+   "youtube": ""
   },
   {
    "id": "sprich-aegyptisch",
