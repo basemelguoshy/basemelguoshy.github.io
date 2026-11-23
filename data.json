@@ -371,13 +371,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#1f6f43",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HQ3J769G",
    "desc_en": "Egyptian Arabic phrasebook for Italian speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي الإيطالية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/parla-egiziano-21j33ts3m.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "parla-egiziano"
+   "phrases": "parla-egiziano",
+   "youtube": ""
   },
   {
    "id": "spreek-egyptisch",
