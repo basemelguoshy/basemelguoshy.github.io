@@ -434,13 +434,14 @@
    "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#1b5e8a",
-   "amazon": "",
+   "amazon": "https://www.amazon.com/dp/B0HR7V4Y64",
    "desc_en": "Egyptian Arabic phrasebook for Swedish speakers. Hear every phrase in the book, chapter by chapter, recorded by the author.",
    "desc_ar": "كتاب عبارات باللهجة المصرية لمتحدثي السويدية. اسمع كل عبارة في الكتاب، فصل بفصل، بصوت المؤلف.",
-   "cover": null,
+   "cover": "covers/prata-egyptiska-lalaitdpo.jpg",
    "sample": null,
    "tracks": [],
-   "phrases": "prata-egyptiska"
+   "phrases": "prata-egyptiska",
+   "youtube": ""
   },
   {
    "id": "mow-po-egipsku",
