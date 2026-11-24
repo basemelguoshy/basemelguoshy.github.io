@@ -283,16 +283,77 @@
   {
    "id": "easy-arabic-short-stories",
    "title": "Easy Arabic Short Stories for Beginners",
-   "subtitle": "Level A1",
+   "subtitle": "20 Stories in Modern Standard Arabic with English Translation · Level A1",
    "series": "Arabic Readers",
    "num": null,
-   "color": "#0F6B6B",
+   "color": "#174E35",
    "amazon": "https://www.amazon.com/s?k=Easy+Arabic+Short+Stories+for+Beginners+Basem+Elguoshy+Madian",
-   "desc_en": "Short, simple stories for A1 learners of Arabic.",
-   "desc_ar": "قصص قصيرة وبسيطة لمتعلمي العربية في المستوى A1.",
-   "cover": null,
+   "desc_en": "20 short A1 stories in fully vowelized Modern Standard Arabic. Each track has the story's vocabulary, then the whole story read slowly, then again at normal speed. Follow the text in your book while you listen.",
+   "desc_ar": "20 قصة قصيرة للمستوى A1 بالفصحى ومتشكّلة بالكامل. كل مقطع فيه مفردات القصة، وبعدها القصة كلها ببطء، وبعدين مرة تانية بالسرعة العادية. تابع النص في الكتاب وانت بتسمع.",
+   "cover": "covers/easy-arabic-short-stories.jpg",
    "sample": null,
-   "tracks": []
+   "tracks": [
+    {
+     "id": "ea01",
+     "title": "Story 1: At the Restaurant · فِي المَطْعَمِ",
+     "file": "audio/easy-arabic-short-stories/track01.mp3",
+     "dur": 232
+    },
+    {
+     "id": "ea02",
+     "title": "Story 2: At the Market · فِي السُّوقِ",
+     "file": "audio/easy-arabic-short-stories/track02.mp3",
+     "dur": 231
+    },
+    {
+     "id": "ea03",
+     "title": "Story 3: The Family · الأُسْرَةُ",
+     "file": "audio/easy-arabic-short-stories/track03.mp3",
+     "dur": 196
+    },
+    {
+     "id": "ea04",
+     "title": "Story 4: A Day at School · يَوْمٌ فِي المَدْرَسَةِ",
+     "file": "audio/easy-arabic-short-stories/track04.mp3",
+     "dur": 207
+    },
+    {
+     "id": "ea05",
+     "title": "Story 5: At the Airport · فِي المَطَارِ",
+     "file": "audio/easy-arabic-short-stories/track05.mp3",
+     "dur": 215
+    },
+    {
+     "id": "ea06",
+     "title": "Story 6: The New House · البَيْتُ الجَدِيدُ",
+     "file": "audio/easy-arabic-short-stories/track06.mp3",
+     "dur": 202
+    },
+    {
+     "id": "ea07",
+     "title": "Story 7: Two Friends · صَدِيقَانِ",
+     "file": "audio/easy-arabic-short-stories/track07.mp3",
+     "dur": 190
+    },
+    {
+     "id": "ea08",
+     "title": "Story 8: At the Doctor · عِنْدَ الطَّبِيبِ",
+     "file": "audio/easy-arabic-short-stories/track08.mp3",
+     "dur": 207
+    },
+    {
+     "id": "ea09",
+     "title": "Story 9: A Trip to the Sea · رِحْلَةٌ إِلَى البَحْرِ",
+     "file": "audio/easy-arabic-short-stories/track09.mp3",
+     "dur": 186
+    },
+    {
+     "id": "ea10",
+     "title": "Story 10: A Night in Ramadan · لَيْلَةٌ فِي رَمَضَانَ",
+     "file": "audio/easy-arabic-short-stories/track10.mp3",
+     "dur": 214
+    }
+   ]
   },
   {
    "id": "islamic-short-stories",
