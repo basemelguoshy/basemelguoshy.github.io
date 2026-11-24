@@ -286,8 +286,8 @@
    "subtitle": "20 Stories in Modern Standard Arabic with English Translation · Level A1",
    "series": "Arabic Readers",
    "num": null,
-   "color": "#174E35",
-   "amazon": "https://www.amazon.com/s?k=Easy+Arabic+Short+Stories+for+Beginners+Basem+Elguoshy+Madian",
+   "color": "#174e35",
+   "amazon": "https://www.amazon.com/dp/B0H7QG5QQD",
    "desc_en": "20 short A1 stories in fully vowelized Modern Standard Arabic. Each track has the story's vocabulary, then the whole story read slowly, then again at normal speed. Follow the text in your book while you listen.",
    "desc_ar": "20 قصة قصيرة للمستوى A1 بالفصحى ومتشكّلة بالكامل. كل مقطع فيه مفردات القصة، وبعدها القصة كلها ببطء، وبعدين مرة تانية بالسرعة العادية. تابع النص في الكتاب وانت بتسمع.",
    "cover": "covers/easy-arabic-short-stories.jpg",
@@ -353,7 +353,8 @@
      "file": "audio/easy-arabic-short-stories/track10.mp3",
      "dur": 214
     }
-   ]
+   ],
+   "youtube": ""
   },
   {
    "id": "islamic-short-stories",
