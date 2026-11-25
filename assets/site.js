@@ -77,6 +77,7 @@ function bookHTML(id){
   var tr=b.tracks||[];
   var s='<section class="book"><div class="wrap">'+back+'<div class="book-grid"><div>'+coverHTML(b)+'</div><div><div class="label">'+esc(b.series||"")+(b.num?' · '+t("bookN")+' '+esc(b.num):'')+'</div><h1>'+esc(b.title)+'</h1>'+(b.subtitle?'<p class="subt">'+esc(b.subtitle)+'</p>':'')+'<p class="desc">'+esc(desc(b))+'</p><div class="actions">'+(b.amazon?'<a class="btn btn-gold" href="'+esc(b.amazon)+'" target="_blank" rel="noopener">'+t("buy")+' ↗</a>':'')+(b.sample&&b.sample.file?'<a class="btn btn-ghost" href="'+esc(b.sample.file)+'" target="_blank" rel="noopener">'+t("sample")+'</a>':'')+'</div>';
   if(b.phrases)s+='<div class="actions"><a class="btn btn-primary" href="phrases/?b='+encodeURIComponent(b.phrases)+'">♪ '+t("phr")+' →</a></div>';
+  if(b.audioPage&&/^[a-z0-9-]+\/$/.test(b.audioPage))s+='<div class="actions"><a class="btn btn-primary" href="'+esc(b.audioPage)+'">♪ '+t("phr")+' →</a></div>';
   var list=ytList(b.youtube);
   if(list)s+='<div class="ytbox"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(list)+'" title="'+esc(b.title)+'" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe></div>';
   var hasFiles=tr.some(function(x){return x.file});

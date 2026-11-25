@@ -585,17 +585,67 @@
   {
    "id": "pocket-egyptian-arabic",
    "title": "POCKET EGYPTIAN ARABIC",
-   "subtitle": "",
-   "series": "",
+   "subtitle": "850+ Essential Phrases & 1,000-Word Dictionary for Travelers to Egypt – Speak Like a Local, with Free Audio by a Native Egyptian Speaker",
+   "series": "Egyptian Arabic Phrasebooks",
    "num": null,
    "color": "#1f3a93",
    "amazon": "",
-   "desc_en": "",
-   "desc_ar": "",
+   "desc_en": "Free audio for every phrase in the book, recorded by the author, a native Egyptian speaker. Each phrase is read at normal speed, then slowly. Play a whole chapter below, or open the phrase-by-phrase page to hear any single phrase by its number. New chapters are added as they are recorded.",
+   "desc_ar": "صوت مجاني لكل جملة في الكتاب بصوت المؤلف المصري. كل جملة بتتقري بالسرعة العادية وبعدين ببطء. شغّل فصل كامل من تحت، أو افتح صفحة الجمل عشان تسمع أي جملة برقمها. الفصول الجديدة بتتضاف أول بأول.",
    "cover": null,
    "sample": null,
-   "tracks": [],
-   "youtube": ""
+   "tracks": [
+    {
+     "id": "pe01",
+     "title": "Chapter 1: Sounds & Pronunciation · النطق",
+     "file": "audio/pocket-egyptian-arabic/ch01.mp3",
+     "dur": 59
+    },
+    {
+     "id": "pe02",
+     "title": "Chapter 2: Greetings & Basics · التحيات والأساسيات",
+     "file": "audio/pocket-egyptian-arabic/ch02.mp3",
+     "dur": 446
+    },
+    {
+     "id": "pe03",
+     "title": "Chapter 3: Making Friends · التعارف",
+     "file": "audio/pocket-egyptian-arabic/ch03.mp3",
+     "dur": 446
+    },
+    {
+     "id": "pe04",
+     "title": "Chapter 4: Numbers, Money & Time · الأرقام والفلوس والوقت",
+     "file": "audio/pocket-egyptian-arabic/ch04.mp3",
+     "dur": 479
+    },
+    {
+     "id": "pe05",
+     "title": "Chapter 5: At the Airport · في المطار",
+     "file": "audio/pocket-egyptian-arabic/ch05.mp3",
+     "dur": 353
+    },
+    {
+     "id": "pe06",
+     "title": "Chapter 6: Getting Around · المواصلات",
+     "file": "audio/pocket-egyptian-arabic/ch06.mp3",
+     "dur": 364
+    },
+    {
+     "id": "pe07",
+     "title": "Chapter 7: At the Hotel · في الفندق",
+     "file": "audio/pocket-egyptian-arabic/ch07.mp3",
+     "dur": 369
+    },
+    {
+     "id": "pe08",
+     "title": "Chapter 8: Food & Drink · الأكل والشرب (part 1: 08-001 – 08-072)",
+     "file": "audio/pocket-egyptian-arabic/ch08.mp3",
+     "dur": 399
+    }
+   ],
+   "youtube": "",
+   "audioPage": "pocket-egyptian/"
   }
  ]
 }
