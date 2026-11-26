@@ -58,7 +58,7 @@ function home() {
   var h = '<div class="bhead"><div class="lbl">Egyptian Arabic · العامية المصرية</div><h1>' + esc(book.title) + '</h1><p class="sub">' + esc(book.sub) + '</p>' +
     '<div class="voice">🎙️ All audio is recorded by the author, <b>' + esc(book.author) + '</b>, a native Egyptian Arabic speaker. Each phrase is read at normal speed, then slowly.</div>' +
     '<input class="search" id="q" type="search" placeholder="Search a word or code (e.g. thank you, 02-028)…"></div><div id="res"></div>' +
-    '<h2 class="sect">Chapters</h2><p class="hint">' + done + ' of ' + total + ' recordings are online. New chapters are added as they are recorded.</p><ol class="chs">';
+    '<h2 class="sect">Chapters</h2><p class="hint">' + done + ' of ' + total + ' recordings are online.</p><ol class="chs">';
   book.chapters.forEach(function (c) {
     var a = nrec(c), n = items(c).length;
     h += '<li><a href="#ch' + String(c.n).padStart(2, "0") + '"><span class="ct"><span class="chn">' + c.n + '</span>' + esc(c.t) + '<span class="car" dir="rtl">' + esc(c.ar) + '</span></span><span class="pill' + (a ? '' : ' none') + '">' +

@@ -590,8 +590,8 @@
    "num": null,
    "color": "#1f3a93",
    "amazon": "",
-   "desc_en": "Free audio for every phrase in the book, recorded by the author, a native Egyptian speaker. Each phrase is read at normal speed, then slowly. Play a whole chapter below, or open the phrase-by-phrase page to hear any single phrase by its number. New chapters are added as they are recorded.",
-   "desc_ar": "صوت مجاني لكل جملة في الكتاب بصوت المؤلف المصري. كل جملة بتتقري بالسرعة العادية وبعدين ببطء. شغّل فصل كامل من تحت، أو افتح صفحة الجمل عشان تسمع أي جملة برقمها. الفصول الجديدة بتتضاف أول بأول.",
+   "desc_en": "Free audio for every phrase in the book, recorded by the author, a native Egyptian speaker. Each phrase is read at normal speed, then slowly. Play a whole chapter below, or open the phrase-by-phrase page to hear any single phrase by its number.",
+   "desc_ar": "صوت مجاني لكل جملة في الكتاب بصوت المؤلف المصري. كل جملة بتتقري بالسرعة العادية وبعدين ببطء. شغّل فصل كامل من تحت، أو افتح صفحة الجمل عشان تسمع أي جملة برقمها.",
    "cover": null,
    "sample": null,
    "tracks": [
@@ -693,9 +693,9 @@
     },
     {
      "id": "pe17",
-     "title": "Chapter 17: Mini Dictionary · قاموس صغير (part 1: 17-0001 – 17-0523)",
-     "file": "audio/pocket-egyptian-arabic/ch17.mp3?v=3",
-     "dur": 2212
+     "title": "Chapter 17: Mini Dictionary · قاموس صغير (A–Z)",
+     "file": "audio/pocket-egyptian-arabic/ch17.mp3?v=4",
+     "dur": 4332
     }
    ],
    "youtube": "",
