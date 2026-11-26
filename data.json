@@ -598,50 +598,104 @@
     {
      "id": "pe01",
      "title": "Chapter 1: Sounds & Pronunciation · النطق",
-     "file": "audio/pocket-egyptian-arabic/ch01.mp3",
+     "file": "audio/pocket-egyptian-arabic/ch01.mp3?v=2",
      "dur": 59
     },
     {
      "id": "pe02",
      "title": "Chapter 2: Greetings & Basics · التحيات والأساسيات",
-     "file": "audio/pocket-egyptian-arabic/ch02.mp3",
-     "dur": 446
+     "file": "audio/pocket-egyptian-arabic/ch02.mp3?v=2",
+     "dur": 441
     },
     {
      "id": "pe03",
      "title": "Chapter 3: Making Friends · التعارف",
-     "file": "audio/pocket-egyptian-arabic/ch03.mp3",
-     "dur": 446
+     "file": "audio/pocket-egyptian-arabic/ch03.mp3?v=2",
+     "dur": 442
     },
     {
      "id": "pe04",
      "title": "Chapter 4: Numbers, Money & Time · الأرقام والفلوس والوقت",
-     "file": "audio/pocket-egyptian-arabic/ch04.mp3",
+     "file": "audio/pocket-egyptian-arabic/ch04.mp3?v=2",
      "dur": 479
     },
     {
      "id": "pe05",
      "title": "Chapter 5: At the Airport · في المطار",
-     "file": "audio/pocket-egyptian-arabic/ch05.mp3",
+     "file": "audio/pocket-egyptian-arabic/ch05.mp3?v=2",
      "dur": 353
     },
     {
      "id": "pe06",
      "title": "Chapter 6: Getting Around · المواصلات",
-     "file": "audio/pocket-egyptian-arabic/ch06.mp3",
-     "dur": 364
+     "file": "audio/pocket-egyptian-arabic/ch06.mp3?v=2",
+     "dur": 356
     },
     {
      "id": "pe07",
      "title": "Chapter 7: At the Hotel · في الفندق",
-     "file": "audio/pocket-egyptian-arabic/ch07.mp3",
+     "file": "audio/pocket-egyptian-arabic/ch07.mp3?v=2",
      "dur": 369
     },
     {
      "id": "pe08",
-     "title": "Chapter 8: Food & Drink · الأكل والشرب (part 1: 08-001 – 08-072)",
-     "file": "audio/pocket-egyptian-arabic/ch08.mp3",
-     "dur": 399
+     "title": "Chapter 8: Food & Drink · الأكل والشرب",
+     "file": "audio/pocket-egyptian-arabic/ch08.mp3?v=2",
+     "dur": 470
+    },
+    {
+     "id": "pe09",
+     "title": "Chapter 9: Shopping & Bargaining · الشوبينج والفصال",
+     "file": "audio/pocket-egyptian-arabic/ch09.mp3?v=2",
+     "dur": 322
+    },
+    {
+     "id": "pe10",
+     "title": "Chapter 10: Asking for Directions · السؤال عن الطريق",
+     "file": "audio/pocket-egyptian-arabic/ch10.mp3?v=2",
+     "dur": 251
+    },
+    {
+     "id": "pe11",
+     "title": "Chapter 11: Sightseeing · السياحة والمعالم",
+     "file": "audio/pocket-egyptian-arabic/ch11.mp3?v=2",
+     "dur": 432
+    },
+    {
+     "id": "pe12",
+     "title": "Chapter 12: Nile Cruises & Day Trips · النيل والرحلات",
+     "file": "audio/pocket-egyptian-arabic/ch12.mp3?v=2",
+     "dur": 396
+    },
+    {
+     "id": "pe13",
+     "title": "Chapter 13: Beach & Red Sea · البحر والبلاج",
+     "file": "audio/pocket-egyptian-arabic/ch13.mp3?v=2",
+     "dur": 338
+    },
+    {
+     "id": "pe14",
+     "title": "Chapter 14: Phone, Weather & Services · الموبايل والجو والخدمات",
+     "file": "audio/pocket-egyptian-arabic/ch14.mp3?v=2",
+     "dur": 360
+    },
+    {
+     "id": "pe15",
+     "title": "Chapter 15: Emergencies, Health & Pharmacy · الطوارئ والصحة والصيدلية",
+     "file": "audio/pocket-egyptian-arabic/ch15.mp3?v=2",
+     "dur": 440
+    },
+    {
+     "id": "pe16",
+     "title": "Chapter 16: Egyptian Expressions · تعبيرات مصرية",
+     "file": "audio/pocket-egyptian-arabic/ch16.mp3?v=2",
+     "dur": 262
+    },
+    {
+     "id": "pe17",
+     "title": "Chapter 17: Mini Dictionary · قاموس صغير (part 1: 17-0001 – 17-0013)",
+     "file": "audio/pocket-egyptian-arabic/ch17.mp3?v=2",
+     "dur": 54
     }
    ],
    "youtube": "",
