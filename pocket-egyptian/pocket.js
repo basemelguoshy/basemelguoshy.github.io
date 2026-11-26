@@ -56,7 +56,7 @@ function home() {
   var total = 0, done = 0;
   book.chapters.forEach(function (c) { total += items(c).length; done += nrec(c) });
   var h = '<div class="bhead"><div class="lbl">Egyptian Arabic · العامية المصرية</div><h1>' + esc(book.title) + '</h1><p class="sub">' + esc(book.sub) + '</p>' +
-    '<div class="voice">🎙️ All audio is recorded by the author, <b>' + esc(book.author) + '</b>, a native Egyptian Arabic speaker. Each phrase is read at normal speed, then slowly.</div>' +
+    '<div class="voice">🔊 Every phrase is read at normal speed, then slowly. The audio was produced with AI voice technology and checked by the author, <b>' + esc(book.author) + '</b>, a native Egyptian Arabic speaker.</div>' +
     '<input class="search" id="q" type="search" placeholder="Search a word or code (e.g. thank you, 02-028)…"></div><div id="res"></div>' +
     '<h2 class="sect">Chapters</h2><p class="hint">' + done + ' of ' + total + ' recordings are online.</p><ol class="chs">';
   book.chapters.forEach(function (c) {
